@@ -1,6 +1,3 @@
-
-
-
 html {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
@@ -23,8 +20,294 @@ button {
     width: 8em;
 }
 
+div#navbar {
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-around;
+    font-size: small;
+    padding: 20px 100px 0px 30px;
+}
+
+div#navbar-right {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+div#navbar-right p, button{
+    font-size: 13px;
+}
+
+div#navbar-left {
+    width: 150px;
+}
+
 div#navbar-left img {
-    width: 8em;
+    border-style: none;
+    vertical-align: top;
+    max-width: 100%;
+    height: auto;
+}
+
+div#principal {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 70px 30px 70px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+div#principal-text {
+    margin: 0px 400px;
+    text-align: center;
+}
+
+div#principal-buttons {
+    margin: 10px;
+}
+
+button#contact-button {
+    background-color: white;
+    border: 2px solid black;
+    width: 140px;
+    margin: 10px;
+}
+
+button#violet-button {
+    background-color: white;
+    border: 2px solid #6b53f0;
+    margin: 10px;
+}
+
+div#dark-section {
+    background-color: #201b24;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 120px;
+}
+
+div#left-text {
+    color: white;
+    width: 400px;
+    height: 200px;
+}
+
+div#left-text h2 {
+    font-size: 30px;
+}
+
+div#left-text p {
+    font-size: 14px;
+}
+
+div#right-text {
+    color: white;
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+div.numbers-and-text {
+    text-align: center;
+}
+
+div.numbers-and-text span{
+ font-size: 50px;
+ font-weight: 700;
+}
+
+div.numbers-and-text div {
+    font-size: 14px;
+}
+
+div#programs {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+}
+
+h2.programs-title {
+    font-size: 30px;
+}
+
+.programs-img {
+    border-radius: 0 60px 60px;
+}
+
+div.right-programs {
+    margin-top: 50px;
+    padding: 0px 50px;
+    width: 400px;
+}
+
+div#robotics {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+.robotics-img {
+    border-radius: 60px 60px 0px;
+}
+
+div.left-robotics {
+    margin-top: 50px;
+    padding: 0px 50px;
+    width: 400px;
+}
+
+div#trainings {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+}
+
+h2.programs-title {
+    font-size: 30px;
+}
+
+.trainings-img {
+    border-radius: 0 60px 60px;
+}
+
+div.right-virtual-scams {
+    margin-top: 50px;
+    padding: 0px 50px;
+    width: 400px;
+}
+
+div#information-security {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+}
+
+div#information-security h4 {
+    font-size: 30px;
+    width: 400px;
+}
+
+div#information-security p {
+    width: 340px;
+}
+
+.security-img {
+    border-radius: 60px 60px 0px;
+}
+
+div.left-robotics {
+    margin-top: 50px;
+    padding: 0px 50px;
+    width: 400px;
+}
+
+div#team-section {
+    background-color: #f4f4f5;
+}
+
+div#team-info {
+    display: flex;
+}
+
+.team-img {
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+}
+
+.team-card {
+    margin: 30px;
+    background-color: #f4f4f5;
+    height: 300px;
+    width: 150px;
+} 
+
+div#aliances {
+    padding: 40px;
+    overflow: hidden;
+    width: 95%;
+}
+
+div#aliances h2 {
+    font-size: 30px;
+}
+
+.aliances-list {
+    display: flex;
+    animation: cambio 100s infinite;
+    position: relative;
+}
+
+@keyframes cambio {
+    0%{
+      left: 0;
+    }
+    10%{
+      left: -100%;
+    }
+    20%{
+      left: -200%;
+    }
+    30%{
+      left: -300%;
+    }
+    40%{
+      left: -400%;
+    }
+    50%{
+      left: -300%;
+    }
+    60%{
+      left: -200%;
+    }
+    70%{
+      left: -100%;
+    }
+    85%{
+      left: 0;
+    }
+  }
+
+li {
+    list-style: none;
+}
+
+li, img {
+    width: 300px;
+}
+
+footer {
+    background-color: #201b24;
+    padding: 60px 30px 40px 30px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+div.footer-text {
+    width: 300px;
+}
+
+div#social-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: white;
+    font-family: ;
 }
 
 @media (width >= 2500px) {
